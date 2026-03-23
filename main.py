@@ -3,7 +3,7 @@ import os
 import PyPDF2
 from google import genai
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyDUQv-4dlkqNy6X_xEuZoxwXFGylLXoZ4o")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
 
 def extract_text_from_pdf(filepath, max_chars=12000):
     text = ""
